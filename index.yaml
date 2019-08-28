@@ -3,7 +3,7 @@ entries:
   kubeversion-exporter:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2019-08-28T18:14:12.243668675Z"
+    created: "2019-08-28T20:38:41.093816639Z"
     description: Find out which versions are running in your Kubernetes cluster and
       if there are updates available.
     digest: 1c5aaeba272fb9758227d2e069d1151bcb7910e228b7ec4d4c9fb4218475f47a
@@ -19,7 +19,7 @@ entries:
   sealed-secrets-web:
   - apiVersion: v1
     appVersion: 2.1.2
-    created: "2019-08-28T18:14:12.244127182Z"
+    created: "2019-08-28T20:38:41.094492939Z"
     description: A web interface for Sealed Secrets by Bitnami.
     digest: e3ece16ceff66272ac4c5e01919f22c2ade791fbb8e5e3977d2815201131098a
     home: https://github.com/ricoberger/sealed-secrets-web
@@ -31,4 +31,19 @@ entries:
     urls:
     - https://ricoberger.github.io/helm-charts/sealed-secrets-web-2.1.2.tgz
     version: 2.1.2
-generated: "2019-08-28T18:14:12.242863164Z"
+  vault-secrets-operator:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2019-08-28T20:38:41.094952239Z"
+    description: Create Kubernetes secrets from Vault.
+    digest: 40d5d3bde65aef9a17bdee8250bfd7acb969f26f94e2cb4e41c1524ae7f584e7
+    home: https://github.com/ricoberger/vault-secrets-operator
+    icon: https://raw.githubusercontent.com/ricoberger/vault-secrets-operator/master/assets/logo.png
+    maintainers:
+    - name: Rico Berger
+      url: https://ricoberger.de
+    name: vault-secrets-operator
+    urls:
+    - https://ricoberger.github.io/helm-charts/vault-secrets-operator-1.0.0.tgz
+    version: 1.0.0
+generated: "2019-08-28T20:38:41.092811139Z"

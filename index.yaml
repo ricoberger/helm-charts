@@ -3,10 +3,10 @@ entries:
   kubeversion-exporter:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2019-08-28T18:14:06.76909556Z"
+    created: "2019-08-28T18:14:12.243668675Z"
     description: Find out which versions are running in your Kubernetes cluster and
       if there are updates available.
-    digest: e16182f648aadbb89ab11d9681882773e8e854c08684584101430e6e3f11860f
+    digest: 1c5aaeba272fb9758227d2e069d1151bcb7910e228b7ec4d4c9fb4218475f47a
     home: https://github.com/ricoberger/kubeversion-exporter
     icon: https://raw.githubusercontent.com/ricoberger/kubeversion-exporter/master/assets/logo.png
     maintainers:
@@ -19,7 +19,7 @@ entries:
   sealed-secrets-web:
   - apiVersion: v1
     appVersion: 2.1.2
-    created: "2019-08-28T18:14:06.769369161Z"
+    created: "2019-08-28T18:14:12.244127182Z"
     description: A web interface for Sealed Secrets by Bitnami.
     digest: e3ece16ceff66272ac4c5e01919f22c2ade791fbb8e5e3977d2815201131098a
     home: https://github.com/ricoberger/sealed-secrets-web
@@ -31,4 +31,4 @@ entries:
     urls:
     - https://ricoberger.github.io/helm-charts/sealed-secrets-web-2.1.2.tgz
     version: 2.1.2
-generated: "2019-08-28T18:14:06.768517959Z"
+generated: "2019-08-28T18:14:12.242863164Z"

@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  sealed-secrets-web:
+  - apiVersion: v1
+    appVersion: 2.1.2
+    created: "2019-08-28T17:57:16.746424547Z"
+    description: A web interface for Sealed Secrets by Bitnami.
+    digest: e3ece16ceff66272ac4c5e01919f22c2ade791fbb8e5e3977d2815201131098a
+    home: https://github.com/ricoberger/sealed-secrets-web
+    icon: https://raw.githubusercontent.com/ricoberger/sealed-secrets-web/master/assets/logo.png
+    maintainers:
+    - name: Rico Berger
+      url: https://ricoberger.de
+    name: sealed-secrets-web
+    urls:
+    - https://ricoberger.github.io/helm-charts/sealed-secrets-web-2.1.2.tgz
+    version: 2.1.2
+generated: "2019-08-28T17:57:16.745833847Z"

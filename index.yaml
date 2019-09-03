@@ -3,7 +3,7 @@ entries:
   kubeversion-exporter:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2019-09-03T20:12:31.190477584Z"
+    created: "2019-09-03T20:19:12.157351772Z"
     description: Find out which versions are running in your Kubernetes cluster and
       if there are updates available.
     digest: 1c5aaeba272fb9758227d2e069d1151bcb7910e228b7ec4d4c9fb4218475f47a
@@ -19,7 +19,7 @@ entries:
   sealed-secrets-web:
   - apiVersion: v1
     appVersion: 2.1.2
-    created: "2019-09-03T20:12:31.191270492Z"
+    created: "2019-09-03T20:19:12.157912371Z"
     description: A web interface for Sealed Secrets by Bitnami.
     digest: e3ece16ceff66272ac4c5e01919f22c2ade791fbb8e5e3977d2815201131098a
     home: https://github.com/ricoberger/sealed-secrets-web
@@ -34,9 +34,9 @@ entries:
   vault-secrets-operator:
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2019-09-03T20:12:31.192524104Z"
+    created: "2019-09-03T20:19:12.159926769Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
-    digest: f7ec32f00e94b7bd65b5b42e0096aae82d0373fa68940c2fdc86f628d78e8ee8
+    digest: 5d615388044fd2c1423f7a6118bb02870d8306748878182daffa5d338e678adf
     home: https://github.com/ricoberger/vault-secrets-operator
     icon: https://raw.githubusercontent.com/ricoberger/vault-secrets-operator/master/assets/logo.png
     maintainers:
@@ -48,7 +48,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.1.1
-    created: "2019-09-03T20:12:31.191992299Z"
+    created: "2019-09-03T20:19:12.15934607Z"
     description: Create Kubernetes secrets from Vault.
     digest: 188f37948bc21ab01d9c8a0595d8e15cf6edb014739ed80673ec7796d585a1ae
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -62,7 +62,7 @@ entries:
     version: 1.1.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2019-09-03T20:12:31.191586495Z"
+    created: "2019-09-03T20:19:12.158426171Z"
     description: Create Kubernetes secrets from Vault.
     digest: 40d5d3bde65aef9a17bdee8250bfd7acb969f26f94e2cb4e41c1524ae7f584e7
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -74,4 +74,4 @@ entries:
     urls:
     - https://ricoberger.github.io/helm-charts/vault-secrets-operator-1.0.0.tgz
     version: 1.0.0
-generated: "2019-09-03T20:12:31.189684277Z"
+generated: "2019-09-03T20:19:12.156342073Z"

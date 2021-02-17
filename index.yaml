@@ -3,7 +3,7 @@ entries:
   kubeversion-exporter:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2021-02-10T06:40:03.180815687Z"
+    created: "2021-02-17T17:48:57.390429101Z"
     description: Find out which versions are running in your Kubernetes cluster and if there are updates available.
     digest: 1c5aaeba272fb9758227d2e069d1151bcb7910e228b7ec4d4c9fb4218475f47a
     home: https://github.com/ricoberger/kubeversion-exporter
@@ -18,7 +18,7 @@ entries:
   logmetrics:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-02-10T06:40:03.181324889Z"
+    created: "2021-02-17T17:48:57.390877605Z"
     description: logmetrics turns your log messages into useful metrics for Prometheus.
     digest: 278b2a52378988a2a419392ed6475cbdad0042ccd74b5d2a372f3d61f9aba071
     name: logmetrics
@@ -29,7 +29,7 @@ entries:
   sealed-secrets-web:
   - apiVersion: v1
     appVersion: 2.2.0
-    created: "2021-02-10T06:40:03.183478596Z"
+    created: "2021-02-17T17:48:57.398935259Z"
     description: A web interface for Sealed Secrets by Bitnami.
     digest: bf01b2fffefdb959c84e55d10a8ea6e53a9fe376d40f3bb5927584ebe9ffca24
     home: https://github.com/ricoberger/sealed-secrets-web
@@ -43,7 +43,7 @@ entries:
     version: 2.2.0
   - apiVersion: v1
     appVersion: 2.1.5
-    created: "2021-02-10T06:40:03.182921094Z"
+    created: "2021-02-17T17:48:57.398525656Z"
     description: A web interface for Sealed Secrets by Bitnami.
     digest: b9cbc0242f0579266a7ea442aad24c903357afffd152a7184e95313bb25a06bc
     home: https://github.com/ricoberger/sealed-secrets-web
@@ -57,7 +57,7 @@ entries:
     version: 2.1.5
   - apiVersion: v1
     appVersion: 2.1.4
-    created: "2021-02-10T06:40:03.182418893Z"
+    created: "2021-02-17T17:48:57.398056553Z"
     description: A web interface for Sealed Secrets by Bitnami.
     digest: 03407b61da15771c0dbb6ce9d56748e7682db476470f58d9f4bfe505fc62bbac
     home: https://github.com/ricoberger/sealed-secrets-web
@@ -71,7 +71,7 @@ entries:
     version: 2.1.4
   - apiVersion: v1
     appVersion: 2.1.2
-    created: "2021-02-10T06:40:03.181886791Z"
+    created: "2021-02-17T17:48:57.391399108Z"
     description: A web interface for Sealed Secrets by Bitnami.
     digest: 26416a575774cf1c580f72d3bbc2c16e7f8bb4360763731046a759e009a2f833
     home: https://github.com/ricoberger/sealed-secrets-web
@@ -85,8 +85,22 @@ entries:
     version: 2.1.2
   vault-secrets-operator:
   - apiVersion: v1
+    appVersion: 1.13.0
+    created: "2021-02-17T17:48:57.40356609Z"
+    description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
+    digest: b96fae715fac74d93aded8de787944d9c85d9aede6a2512de2515e0818235499
+    home: https://github.com/ricoberger/vault-secrets-operator
+    icon: https://raw.githubusercontent.com/ricoberger/vault-secrets-operator/master/assets/logo.png
+    maintainers:
+    - name: Rico Berger
+      url: https://ricoberger.de
+    name: vault-secrets-operator
+    urls:
+    - https://ricoberger.github.io/helm-charts/vault-secrets-operator-1.13.0.tgz
+    version: 1.13.0
+  - apiVersion: v1
     appVersion: 1.12.0
-    created: "2021-02-10T06:40:03.188751614Z"
+    created: "2021-02-17T17:48:57.403010586Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 9786fd9acb6498ddd3c61cf4cc1435d82266980a0b49bbebe9d9549cd8035c40
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -100,7 +114,7 @@ entries:
     version: 1.12.0
   - apiVersion: v1
     appVersion: 1.11.0
-    created: "2021-02-10T06:40:03.187884611Z"
+    created: "2021-02-17T17:48:57.402465683Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 0f3848ead76648cb4b6cd4f1af2a887fa068454f29b2e4ddaa529a65534f9fa6
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -114,7 +128,7 @@ entries:
     version: 1.11.0
   - apiVersion: v1
     appVersion: 1.10.2
-    created: "2021-02-10T06:40:03.187118008Z"
+    created: "2021-02-17T17:48:57.401914079Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 959487385f76334420d7ff128e7fd5210250cffc06feb83c5dfb679e596f21f5
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -128,7 +142,7 @@ entries:
     version: 1.10.2
   - apiVersion: v1
     appVersion: 1.10.1
-    created: "2021-02-10T06:40:03.186366006Z"
+    created: "2021-02-17T17:48:57.401379275Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: bcb69f59ac8262287e2acca2c6f1482cb621db604ebfe23f446c934fcf71b0cd
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -142,7 +156,7 @@ entries:
     version: 1.10.1
   - apiVersion: v1
     appVersion: 1.10.0
-    created: "2021-02-10T06:40:03.185666003Z"
+    created: "2021-02-17T17:48:57.400667271Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 6424649d487b44e049ccb63b1410f55be63560e3e996466e824d1b8302fb09ee
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -156,7 +170,7 @@ entries:
     version: 1.10.0
   - apiVersion: v1
     appVersion: 1.9.0
-    created: "2021-02-10T06:40:03.249956218Z"
+    created: "2021-02-17T17:48:57.42426923Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 7c66e869ffc0daf132eccf5737500222287af416a2dd453e52575a373da54671
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -170,7 +184,7 @@ entries:
     version: 1.9.0
   - apiVersion: v1
     appVersion: 1.8.2
-    created: "2021-02-10T06:40:03.249185315Z"
+    created: "2021-02-17T17:48:57.423745227Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: c932062043e98bec184def9bf72efdc78f00a0d2ea30e930fe2ef43b5a2f5dfd
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -184,7 +198,7 @@ entries:
     version: 1.8.2
   - apiVersion: v1
     appVersion: 1.8.1
-    created: "2021-02-10T06:40:03.245925604Z"
+    created: "2021-02-17T17:48:57.423226123Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 2d0828d30c88e970be1732cebbe21b7b8c33adf2acc159e6ead50e7832d812fb
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -198,7 +212,7 @@ entries:
     version: 1.8.1
   - apiVersion: v1
     appVersion: 1.8.0
-    created: "2021-02-10T06:40:03.2447034Z"
+    created: "2021-02-17T17:48:57.422615219Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 3cb3078c663ec706615b8b1c4aa9d404662bf3d1acbe358c6129a757d9eaa994
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -212,7 +226,7 @@ entries:
     version: 1.8.0
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2021-02-10T06:40:03.243794497Z"
+    created: "2021-02-17T17:48:57.421794713Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: ff6b4088443c4b2efab093490d8b8e6cf82531ad2babe608d28ad3a8a6e1086a
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -226,7 +240,7 @@ entries:
     version: 1.7.1
   - apiVersion: v1
     appVersion: 1.7.0
-    created: "2021-02-10T06:40:03.242678193Z"
+    created: "2021-02-17T17:48:57.421201709Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 7ca46ef0b4598167c559221596f94a487414d0fcb7053ae36b097fe7e7c02f33
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -240,7 +254,7 @@ entries:
     version: 1.7.0
   - apiVersion: v1
     appVersion: 1.6.0
-    created: "2021-02-10T06:40:03.24174079Z"
+    created: "2021-02-17T17:48:57.420633305Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 60da02e52161d30a247b4c10a5b784ff2f12442eef2915438cab110ab62f805b
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -254,7 +268,7 @@ entries:
     version: 1.6.0
   - apiVersion: v1
     appVersion: 1.5.0
-    created: "2021-02-10T06:40:03.241040888Z"
+    created: "2021-02-17T17:48:57.420131402Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: bae339ff86be044a500eaa8b1995b0b8c382c5e53a8c63477b424db8713a97f3
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -268,7 +282,7 @@ entries:
     version: 1.5.0
   - apiVersion: v1
     appVersion: 1.4.7
-    created: "2021-02-10T06:40:03.240310985Z"
+    created: "2021-02-17T17:48:57.419552798Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 66fe69dd9593da5032e0abf2fdb90adc5a27f78faac7378a75fc8d8e3e039b51
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -282,7 +296,7 @@ entries:
     version: 1.4.7
   - apiVersion: v1
     appVersion: 1.4.6
-    created: "2021-02-10T06:40:03.239604383Z"
+    created: "2021-02-17T17:48:57.419035795Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: b526e54cc746aace3e36d57f2ccd873b35f3be8c7c366701bb221c24d5dbdf90
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -296,7 +310,7 @@ entries:
     version: 1.4.6
   - apiVersion: v1
     appVersion: 1.4.5
-    created: "2021-02-10T06:40:03.23873248Z"
+    created: "2021-02-17T17:48:57.41840849Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 0a9e1ea7d96fbf1305520b9f5231c4cf69ce889c632f1e25d163c0ff6fdd68d4
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -310,7 +324,7 @@ entries:
     version: 1.4.5
   - apiVersion: v1
     appVersion: 1.4.4
-    created: "2021-02-10T06:40:03.238073378Z"
+    created: "2021-02-17T17:48:57.417868787Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: eed683f7510ea3c454084c8e10585352b18eb5e793a32e69b4e5fd8437fe1e76
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -324,7 +338,7 @@ entries:
     version: 1.4.4
   - apiVersion: v1
     appVersion: 1.4.3
-    created: "2021-02-10T06:40:03.237383576Z"
+    created: "2021-02-17T17:48:57.417369283Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: d1a35df20f2fe368e4ffbf6f65b2a1b69d3b959da676bbcf6fd86c265b1ca2a2
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -338,7 +352,7 @@ entries:
     version: 1.4.3
   - apiVersion: v1
     appVersion: 1.4.2
-    created: "2021-02-10T06:40:03.236672873Z"
+    created: "2021-02-17T17:48:57.416272076Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 5c9dced57c5df8330acb0510ef4bfb7744854bd037d4c44f75073542fe3efcb3
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -352,7 +366,7 @@ entries:
     version: 1.4.2
   - apiVersion: v1
     appVersion: 1.4.1
-    created: "2021-02-10T06:40:03.235996271Z"
+    created: "2021-02-17T17:48:57.415572171Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 1f11453a9dac48fc8651ef8e911e093b82198faad45b537055ac9dbbd7d85e43
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -366,7 +380,7 @@ entries:
     version: 1.4.1
   - apiVersion: v1
     appVersion: 1.4.0
-    created: "2021-02-10T06:40:03.235204768Z"
+    created: "2021-02-17T17:48:57.415082768Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 2d816118b65ebe24b880404a3878f4bebdfa712fb40c3a777561ed1560477ffa
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -380,7 +394,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.3.2
-    created: "2021-02-10T06:40:03.234462666Z"
+    created: "2021-02-17T17:48:57.407510817Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 0fad8132763dc7fe1bdc72ae6562d9f7e8a02ac1c99b41dd202a950321ad0943
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -394,7 +408,7 @@ entries:
     version: 1.3.2
   - apiVersion: v1
     appVersion: 1.3.1
-    created: "2021-02-10T06:40:03.233795064Z"
+    created: "2021-02-17T17:48:57.407043414Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: b6369d75b6d6fbab5e38c175f9fa030e92c6e562792f89459f7f062e7726a102
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -408,7 +422,7 @@ entries:
     version: 1.3.1
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2021-02-10T06:40:03.233154462Z"
+    created: "2021-02-17T17:48:57.40655321Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: e9fcc85e2fe958bea2f70cb52108d87fa9a9ae9ed71bfa1d01e4d73afc8ffe0f
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -422,7 +436,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2021-02-10T06:40:03.232446859Z"
+    created: "2021-02-17T17:48:57.405952206Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: ff31a7b547860b216000403bdfb4f9f8252e0712624cbadf2a7734f49dfb19e4
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -436,7 +450,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2021-02-10T06:40:03.231612856Z"
+    created: "2021-02-17T17:48:57.405505403Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 96a295f2035d2ff254e6b4c689c058849bea37470a93aa9cb82fa46f9224dfb8
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -450,7 +464,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2021-02-10T06:40:03.230877154Z"
+    created: "2021-02-17T17:48:57.4050641Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 1eb55aad29248c09dd5ab54de14c54b2a5b9b541c343e700c4ee840d34ca7fce
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -464,7 +478,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2021-02-10T06:40:03.22976205Z"
+    created: "2021-02-17T17:48:57.404595097Z"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: 7b36a54ae692c499da439f3be46222e7899ea8b271c9a81b224cb6f8a42b6d41
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -478,7 +492,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.1.1
-    created: "2021-02-10T06:40:03.184917701Z"
+    created: "2021-02-17T17:48:57.399842865Z"
     description: Create Kubernetes secrets from Vault.
     digest: 188f37948bc21ab01d9c8a0595d8e15cf6edb014739ed80673ec7796d585a1ae
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -492,7 +506,7 @@ entries:
     version: 1.1.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2021-02-10T06:40:03.184265099Z"
+    created: "2021-02-17T17:48:57.399376262Z"
     description: Create Kubernetes secrets from Vault.
     digest: 40d5d3bde65aef9a17bdee8250bfd7acb969f26f94e2cb4e41c1524ae7f584e7
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -504,4 +518,4 @@ entries:
     urls:
     - https://ricoberger.github.io/helm-charts/vault-secrets-operator-1.0.0.tgz
     version: 1.0.0
-generated: "2021-02-10T06:40:03.179820484Z"
+generated: "2021-02-17T17:48:57.389850398Z"

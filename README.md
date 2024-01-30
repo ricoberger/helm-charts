@@ -20,5 +20,5 @@ Update and show charts:
 
 ```sh
 helm repo update
-helm search -l ricoberger/
+helm search repo -l ricoberger/
 ```

@@ -1,5 +1,9 @@
 # Helm Charts
 
+> [!WARNING]
+> New Helm charts and releases of existing Helm charts will be available via the
+> GitHub Container Registry at https://github.com/ricoberger?tab=packages&tab=packages&q=charts%2F
+
 Add a new chart to this repository:
 
 ```sh
